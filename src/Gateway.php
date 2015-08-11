@@ -214,7 +214,7 @@ class Gateway extends AbstractGateway
      */
     public function purchase(array $parameters = array())
     {
-        return $this->createRequest('\Omnipay\TwoCheckout\Message\Request', $parameters);
+        return $this->createRequest('\Omnipay\Dotpay\Message\Request', $parameters);
     }
 
     /**
@@ -224,6 +224,6 @@ class Gateway extends AbstractGateway
      */
     public function completePurchase(array $parameters = array())
     {
-        return $this->createRequest('\Omnipay\TwoCheckout\Message\CompletePurchaseRequest', $parameters);
+        return $this->createRequest('\Omnipay\Dotpay\Message\CompletePurchaseRequest', $parameters);
     }
 }
