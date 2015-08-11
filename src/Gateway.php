@@ -3,7 +3,7 @@
 namespace Omnipay\Dotpay;
 
 use Omnipay\Common\AbstractGateway;
-use Omnipay\TwoCheckout\Message\PurchaseRequest;
+use Omnipay\Dotpay\Message\PurchaseRequest;
 
 /**
  * Dotpay Gateway.

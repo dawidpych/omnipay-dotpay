@@ -4,6 +4,7 @@ composer.phar
 phpunit.xml
 .idea/
 .idea
+.git
 
 .directory
 dirlist.app
