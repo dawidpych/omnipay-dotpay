@@ -1,0 +1,35 @@
+{
+    "name": "omnipay/dotpay",
+    "type": "library",
+    "description": "Dotpay driver for the Omnipay payment processing library",
+    "keywords": [
+        "dotpay",
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://github.com/dawidpych/omnipay-dotpay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Akra",
+            "homepage": "https://github.com/dawidpych/omnipay-dotpay/contributors"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\dotpay\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
